@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+# This is my first bashscript :) 
+#
+# How to create this file                   >>  touch firstBashScript
+# 
+# It opened and it wrote something in file  >>  nano firstBashScript
+# 
+# It run this command for can be executable >>  chmod +x firstBashScript
+# 
+# It run this command for execute           >>  ./firstBashScript
+##
+
+while true
+do
+	echo " I am here :) ..."
+	echo " -- -- -- -- "
+	sleep 1
+done

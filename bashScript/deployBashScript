@@ -1,0 +1,29 @@
+#!/bin/bash
+
+
+echo -e "\n ---------------------------------------------------------- \n"
+
+echo -e "\n     keramiozsoy                       \n\n"
+
+LOCATION=$(pwd)
+
+echo -e "\n     Your location is >> $LOCATION       \n "
+
+echo -e "\n     I am downloading jboss server 7.1.1 \n"
+
+#wget http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.zip
+
+echo -e "\n     Extracting zip file \n"
+
+JBOSS_FOLDER=$LOCATION/jboss-as-7.1.1.Final
+
+unzip $JBOSS_FOLDER.zip
+
+echo -e "\n    :) :) :) :) :) :) :)                 \n"
+
+chmod +x ${JBOSS_FOLDER}/bin/standalone.sh
+
+sh ${JBOSS_FOLDER}/bin/standalone.sh
+
+#sh ${JBOSS_FOLDER}/bin/jboss-cli.sh --connect command=:shutdown  # kapatma
+

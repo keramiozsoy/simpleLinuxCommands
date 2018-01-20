@@ -63,4 +63,4 @@ source $HOME/.bashrc
 #
 #
 
-echo -e "\n You should type in terminal :) >> python \n"
+echo -e "\n You should restart and type in terminal :) >> python \n"

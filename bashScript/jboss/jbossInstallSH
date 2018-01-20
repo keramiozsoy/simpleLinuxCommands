@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo -e "\n     Your location is >> $1       \n "
+
+wget http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.zip
+
+echo -e "\n     Extracting zip file \n"
+
+unzip $1/jboss-as-7.1.1.Final.zip
+
+echo -e "\n    :) :) :) :) :) :) :)                 \n"
+
+chmod +x $1/jboss-as-7.1.1.Final/bin/standalone.sh
+

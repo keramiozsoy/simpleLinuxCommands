@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo -e "\n     keramiozsoy                       \n\n"
+
 LOCATION_FIRST=$(pwd)
 LOCATION=pythonLocation
 LOCATION_SETUP=$LOCATION/setup

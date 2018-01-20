@@ -55,7 +55,7 @@ sudo apt-get install zlib1g-dev
 sudo make install
 #
 sed -i -e "\$a\######" $HOME/.bashrc 
-sed -i -e "\$a\alias pyhton='$LOCATION_FIRST/$LOCATION_USE/bin/${PYTHON,,}'" $HOME/.bashrc 
+sed -i -e "\$a\alias python='$LOCATION_FIRST/$LOCATION_USE/bin/${PYTHON,,}'" $HOME/.bashrc 
 sed -i -e "\$a\######" $HOME/.bashrc 
 #
 #

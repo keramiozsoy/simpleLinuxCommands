@@ -1,4 +1,3 @@
 #!/bin/bash
 
 sh ${1}/jboss-as-7.1.1.Final/bin/standalone.sh
-return 0

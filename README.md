@@ -2,7 +2,7 @@
 
 It has good scripts.
 
-## javaInstall
+## java install
   - Makefile
 
 ## bashScript
